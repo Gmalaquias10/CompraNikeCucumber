@@ -1,0 +1,26 @@
+#language:pt
+Funcionalidade: Compra no site da nike
+Gostaria de comprar um produto
+Para que eu possa assistir um jogo da nba
+
+
+Esquema do Cenário: Deve adicionar camisa ao carrinho de compra
+Dado que estou acessando o site da nike
+E vou na aba pesquisar e informo o nome <camisa>
+Então visualizo a regata e seleciono o modelo 
+E seleciono o <tamanho>
+Entao adiciono ao Carrinho
+
+
+Exemplos:
+		|	camisa       |tamanho |  
+	  |regata dallas | GGGG   |
+	 
+
+
+Cenário: Deve Adicionar camisa ao carrinho de compra
+Dado que estou acessando o site da nike
+E vou na aba pesquisar e informo o nome "regata dallas"
+Então visualizo a regata e seleciono o modelo 
+E seleciono o "GGGG"
+Entao adiciono ao Carrinho 
